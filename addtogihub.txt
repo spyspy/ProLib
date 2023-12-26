@@ -11,3 +11,6 @@ git push -u origin master
 git branch -m master main
 
 git push -u origin main
+
+# To push to the branch of the same name on the remote, use
+git push origin HEAD
