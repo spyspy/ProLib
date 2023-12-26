@@ -1,0 +1,13 @@
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <repository_url>
+git push -u origin master
+
+* change master to main
+
+# Assuming you are currently on the master branch
+git branch -m master main
+
+git push -u origin main
